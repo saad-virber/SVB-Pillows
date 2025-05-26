@@ -119,10 +119,10 @@ section:nth-of-type(1) .form {
 
 section:nth-of-type(1) input {
   width: 40vw;
-  max-width: 600px;
-  min-height: 3vh;
-  height: 1.4rem;
-  max-height: 4vh;
+  min-width: 25vh;
+  height: 5vw;
+  max-height: 5vh;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
   padding: 1vh;
   padding-left: min(2vw, 20px);
   border-radius: 10px;
@@ -130,7 +130,7 @@ section:nth-of-type(1) input {
   background-color: #fff;
   color: #ff6b6b;
   font-size: min(3vw, 1rem);
-  margin-bottom: 4vh;
+  margin-bottom: 1.5rem;
 
 }
 
@@ -144,8 +144,11 @@ section:nth-of-type(1) input::placeholder {
 }
 
 section:nth-of-type(1) button {
-  width: 20vw;
-  height: 5vh;
+  width: 30vw;
+  min-width: 15vh;
+  max-width: 30vh;
+  height: 7vw;
+  max-height: 5vh;
   border-radius: 10px;
   font-size: min(4vw, 1.1rem);
   font-weight: bold;
