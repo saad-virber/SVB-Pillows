@@ -262,8 +262,8 @@ section:nth-of-type(2) .features {
   flex-wrap: wrap;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 350;
-  min-width: 350px;
+  flex-basis: 300px;
+  min-width: 300px;
   max-width: 100%;
   gap: 5vh;
 }
