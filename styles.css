@@ -240,8 +240,8 @@ section:nth-of-type(2) .features {
   flex-wrap: wrap;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 400px;
-  min-width: 400px;
+  flex-basis: 350;
+  min-width: 350px;
   max-width: 100%;
   gap: 5vh;
 }
@@ -269,7 +269,7 @@ span {
 }
 
 .feature p {
-  font-size: clamp(0.8rem, 2vh, 2rem);
+  font-size: clamp(0.5rem, 2vh, 2rem);
 }
 .wave3 svg {
   position: relative;
