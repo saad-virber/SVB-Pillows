@@ -19,9 +19,18 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 10;
 }
-
+.wave1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  pointer-events: none;
+  top: 0;
+  z-index: 11; 
+}
 header a {
   color: #ff6b6b;
   text-decoration: none;
@@ -172,7 +181,6 @@ section:nth-of-type(1) button:active {
 }
 
 .wave,
-.wave1,
 .wave2,
 .wave3,
 .wave4,
@@ -184,17 +192,11 @@ section:nth-of-type(1) button:active {
   line-height: 0;
   pointer-events: none;
 }
-.wave1,
 .wave3,
 .wave4,
 .wave5 {
   bottom: 0;
   transform: rotate(180deg);
-}
-.wave1,
-.wave3 {
-  top: 0;
-  transform: none;
 }
 .wave svg,
 .wave1 svg,
