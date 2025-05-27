@@ -5,21 +5,40 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: white;
+  width: 100%;
 }
 
+.hc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 20;
+}
+.h {
+  width: 100%;
+  margin: 0;
+}
 header {
   background-color: #222222;
-  padding: 1vh clamp(1vw, 2vw, 1.5rem);
+  padding: 1vh clamp(1vw, 2vw, 0);
   margin: 0;
+  width: 100%;
   display: grid;
   grid-template-columns: 20% 5% 75%;
   grid-template-areas:
     "logo none nav";
-  position: sticky;
-  top: 0;
-  left: 0;
   z-index: 10;
+  box-sizing: border-box;
+}
+.bh {
+  margin: 0;
+  width: 100%;
+  position: relative;
 }
 .wave1 {
   position: absolute;
@@ -30,6 +49,7 @@ header {
   pointer-events: none;
   top: 0;
   z-index: 11; 
+  margin: 0;
 }
 header a {
   color: #ff6b6b;
@@ -90,6 +110,7 @@ section:nth-of-type(1) {
   background-color: #ff6b6b;
   color: #ffffff;
   padding: 10vw 4vw;
+  padding-top: clamp(15vw, 15vh, 200px);
   display: grid;
   grid-template-columns: 60vw 32.5vw;
   grid-template-rows: 20% 1fr;
